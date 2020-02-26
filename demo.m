@@ -3,7 +3,7 @@ clear all;
 clc;
 
 % estimate reflectance and illumination
-im=im2double(imread('data/593.png'));
+im=im2double(imread('75072.png'));
 % You can modify the key parameters by intrinsicScene
 [I,R]=intrinsicScene(im);
 
